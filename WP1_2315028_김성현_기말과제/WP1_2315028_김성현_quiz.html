@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="WP1_2315028_김성현_quiz.css">
+</head>
+<body>
+    <main id="quiz-container">
+        <div id="start-page">
+            <h2> 송이 퀴즈에 오신 걸 환영합니다! </h2>
+            <label for="username">이름 : </label>
+            <input type="text" id="username" placeholder="이름을 입력하세요!" required>
+            <button id="start-btn"> 시작하기 </button>
+        </div>
+        <div id="quiz-page" class="hidden">
+            <div id="category-select">
+                <h2>원하는 카테고리를 선택하세요!</h2>
+                <button class="category-btn" data-category="algorithm">알고리즘</button>
+                <button class="category-btn" data-category="dataStructure">데이터구조</button>
+                <button class="category-btn" data-category="serverSecurity">서버운영 및 보안</button>
+                <button class="category-btn" data-category="webProgramming">웹프로그래밍</button>
+            </div>
+            <div id="difficulty" class="hidden">
+                <h2>문제의 난이도를 선택하세요!</h2>
+                <button class="difficulty-btn" data-difficulty="easy">초급</button>
+                <button class="difficulty-btn" data-difficulty="medium">중급</button>
+                <button class="difficulty-btn" data-difficulty="hard">고급</button>
+            </div>
+            <div id="quiz" class="hidden">
+                <p id="question"></p>
+                <ul id="choices"></ul> 
+                <div id="timer">시간 00:00</div>
+                <button id="next-btn">다음</button>
+            </div>
+        </main>
+
+        <div id="end-page" class="hidden">
+            <h2>퀴즈 결과</h2>
+            <p id="score"></p>
+            <button id="stats-btn">랭킹보기</button>
+            <div id="stats" class="hidden">
+                <ul id="ranking-list"></ul>
+            </div>
+            <button id="restart-btn">다시 도전하기</button>
+            <button id="end-btn">종료하기</button>
+        </div>
+    <script src="WP1_2315028_김성현_quiz.js"></script>
+</body>
+</html>

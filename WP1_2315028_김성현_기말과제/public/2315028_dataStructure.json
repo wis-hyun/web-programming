@@ -1,0 +1,38 @@
+{
+    "easy": [
+        { "text": "스택의 주요 연산은?", "choices": ["삽입, 삭제", "삽입, 탐색", "삽입, 삭제, 탐색", "삭제, 정렬"], "correctAnswer": "삽입, 삭제" },
+        { "text": "큐의 FIFO는 무엇을 의미하나요?", "choices": ["First In First Out", "Fast In Fast Out", "First In Last Out", "Fast In Last Out"], "correctAnswer": "First In First Out" },
+        { "text": "이진 트리의 각 노드는 최대 몇 개의 자식을 가질 수 있나요?", "choices": ["1", "2", "3", "4"], "correctAnswer": "2" },
+        { "text": "연결 리스트의 가장 기본적인 노드 구성 요소는?", "choices": ["값", "값과 포인터", "값과 인덱스", "포인터"], "correctAnswer": "값과 포인터" },
+        { "text": "해시 테이블에서 충돌을 해결하는 방법 중 하나는?", "choices": ["체이닝", "배열", "정렬", "큐"], "correctAnswer": "체이닝" },
+        { "text": "이진 탐색 트리(BST)의 특징은?", "choices": ["각 노드의 값이 무작위", "왼쪽 서브트리가 작고, 오른쪽 서브트리가 크다", "균형 잡힌 트리", "자식 노드가 없다"], "correctAnswer": "왼쪽 서브트리가 작고, 오른쪽 서브트리가 크다" },
+        { "text": "원형 큐에서 사용되는 연산은?", "choices": ["삽입, 삭제", "삽입, 삭제, 순환", "삽입, 탐색", "삭제, 정렬"], "correctAnswer": "삽입, 삭제, 순환" },
+        { "text": "더블 연결 리스트는 몇 개의 포인터를 가지나요?", "choices": ["1", "2", "3", "4"], "correctAnswer": "2" },
+        { "text": "힙(Heap) 자료구조는 무엇을 기반으로 동작하나요?", "choices": ["트리", "그래프", "큐", "배열"], "correctAnswer": "트리" },
+        { "text": "데이터 구조에서 '정렬된 리스트'를 사용하는 이유는?", "choices": ["효율적인 탐색", "값 추가 간편", "중복 허용", "노드 재배열"], "correctAnswer": "효율적인 탐색" }
+    ],
+    "medium": [
+        { "text": "AVL 트리의 핵심 특징은 무엇인가요?", "choices": ["트리 균형 유지", "최단 경로 탐색", "순차 데이터 저장", "노드 탐색 시간 최소화"], "correctAnswer": "트리 균형 유지" },
+        { "text": "B-트리는 무엇을 위해 사용되나요?", "choices": ["디스크 기반 데이터 저장", "선형 탐색", "값 정렬", "재귀 연산"], "correctAnswer": "디스크 기반 데이터 저장" },
+        { "text": "그래프에서 인접 리스트의 장점은?", "choices": ["공간 효율적", "시간 효율적", "정렬 가능", "간선 수 제한"], "correctAnswer": "공간 효율적" },
+        { "text": "스택과 큐의 차이점은?", "choices": ["삽입 방식", "삭제 방식", "순서 방식", "삽입과 삭제 방식"], "correctAnswer": "삽입과 삭제 방식" },
+        { "text": "이진 힙의 삽입과 삭제 시간 복잡도는?", "choices": ["O(1)", "O(log n)", "O(n)", "O(n^2)"], "correctAnswer": "O(log n)" },
+        { "text": "그래프의 사이클 여부를 확인하는 방법은?", "choices": ["DFS", "BFS", "둘 다 가능", "둘 다 불가능"], "correctAnswer": "둘 다 가능" },
+        { "text": "트리 순회 방식 중 '후위 순회'는 어떤 순서인가요?", "choices": ["왼쪽, 오른쪽, 루트", "루트, 왼쪽, 오른쪽", "왼쪽, 루트, 오른쪽", "오른쪽, 왼쪽, 루트"], "correctAnswer": "왼쪽, 오른쪽, 루트" },
+        { "text": "힙 정렬의 시간 복잡도는?", "choices": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"], "correctAnswer": "O(n log n)" },
+        { "text": "원형 연결 리스트의 특징은?", "choices": ["마지막 노드가 첫 번째 노드와 연결", "노드의 개수 제한", "값 중복 허용", "재귀적으로 동작"], "correctAnswer": "마지막 노드가 첫 번째 노드와 연결" },
+        { "text": "그래프에서 노드 방문 순서를 정하는 알고리즘은?", "choices": ["DFS", "BFS", "둘 다", "다익스트라"], "correctAnswer": "둘 다" }
+    ],
+    "hard": [
+        { "text": "Red-Black 트리의 삽입 연산 시간 복잡도는?", "choices": ["O(1)", "O(log n)", "O(n)", "O(n^2)"], "correctAnswer": "O(log n)" },
+        { "text": "B+ 트리가 B-트리와 다른 주요 특징은?", "choices": ["값이 모두 리프에 저장", "더 빠른 삽입", "더 작은 노드 크기", "탐색 불가능"], "correctAnswer": "값이 모두 리프에 저장" },
+        { "text": "DFS에서 백트래킹이 발생하는 경우는?", "choices": ["방문 노드가 막다른 길", "모든 노드를 방문", "루프 발생", "간선 탐색"], "correctAnswer": "방문 노드가 막다른 길" },
+        { "text": "그래프의 '연결 성분'을 찾는 알고리즘은?", "choices": ["DFS", "BFS", "크루스칼", "다익스트라"], "correctAnswer": "DFS" },
+        { "text": "트라이(Trie) 자료구조는 무엇에 사용되나요?", "choices": ["문자열 검색", "정렬", "해싱", "최단 경로 탐색"], "correctAnswer": "문자열 검색" },
+        { "text": "다익스트라 알고리즘과 프림 알고리즘의 공통점은?", "choices": ["우선순위 큐 사용", "스패닝 트리 생성", "최단 경로 탐색", "DFS 사용"], "correctAnswer": "우선순위 큐 사용" },
+        { "text": "Sparse Table의 사용 목적은?", "choices": ["최소/최대 쿼리 처리", "노드 순회", "간선 탐색", "값 정렬"], "correctAnswer": "최소/최대 쿼리 처리" },
+        { "text": "Fenwick Tree는 무엇에 사용되나요?", "choices": ["구간 합 계산", "정렬", "최단 경로 탐색", "이진 탐색"], "correctAnswer": "구간 합 계산" },
+        { "text": "Segment Tree의 시간 복잡도는?", "choices": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"], "correctAnswer": "O(log n)" },
+        { "text": "Disjoint Set의 'Union by Rank'는 무엇인가요?", "choices": ["트리 높이를 최소화", "값 정렬", "트리 탐색 시간 단축", "재귀 사용"], "correctAnswer": "트리 높이를 최소화" }
+    ]
+}

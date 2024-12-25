@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "username": "김성현",
+        "highestScore": 95,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 80, "date": "2024-12-01" },
+            { "topic": "dataStructure", "score": 90, "date": "2024-12-01" },
+            { "topic": "serverSecurity", "score": 80, "date": "2024-12-01" },
+            { "topic": "webProgramming", "score": 90, "date": "2024-12-05" }
+        ]
+    },
+    {
+        "id": 2,
+        "username": "이지은",
+        "highestScore": 88,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 75, "date": "2024-12-02" },
+            { "topic": "dataStructure", "score": 88, "date": "2024-12-03" },
+            { "topic": "serverSecurity", "score": 85, "date": "2024-12-04" },
+            { "topic": "webProgramming", "score": 70, "date": "2024-12-06" }
+        ]
+    },
+    {
+        "id": 3,
+        "username": "박지훈",
+        "highestScore": 92,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 85, "date": "2024-12-01" },
+            { "topic": "dataStructure", "score": 80, "date": "2024-12-03" },
+            { "topic": "serverSecurity", "score": 92, "date": "2024-12-05" },
+            { "topic": "webProgramming", "score": 88, "date": "2024-12-07" }
+        ]
+    },
+    {
+        "id": 4,
+        "username": "최민수",
+        "highestScore": 90,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 90, "date": "2024-12-02" },
+            { "topic": "dataStructure", "score": 85, "date": "2024-12-04" },
+            { "topic": "serverSecurity", "score": 78, "date": "2024-12-06" },
+            { "topic": "webProgramming", "score": 88, "date": "2024-12-08" }
+        ]
+    },
+    {
+        "id": 5,
+        "username": "윤다영",
+        "highestScore": 85,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 80, "date": "2024-12-03" },
+            { "topic": "dataStructure", "score": 85, "date": "2024-12-04" },
+            { "topic": "serverSecurity", "score": 78, "date": "2024-12-05" },
+            { "topic": "webProgramming", "score": 70, "date": "2024-12-07" }
+        ]
+    },
+    {
+        "id": 6,
+        "username": "김하늘",
+        "highestScore": 93,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 93, "date": "2024-12-02" },
+            { "topic": "dataStructure", "score": 85, "date": "2024-12-04" },
+            { "topic": "serverSecurity", "score": 80, "date": "2024-12-06" },
+            { "topic": "webProgramming", "score": 77, "date": "2024-12-08" }
+        ]
+    },
+    {
+        "id": 7,
+        "username": "정수현",
+        "highestScore": 90,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 85, "date": "2024-12-01" },
+            { "topic": "dataStructure", "score": 90, "date": "2024-12-03" },
+            { "topic": "serverSecurity", "score": 88, "date": "2024-12-05" },
+            { "topic": "webProgramming", "score": 75, "date": "2024-12-07" }
+        ]
+    },
+    {
+        "id": 8,
+        "username": "이준호",
+        "highestScore": 87,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 80, "date": "2024-12-03" },
+            { "topic": "dataStructure", "score": 87, "date": "2024-12-05" },
+            { "topic": "serverSecurity", "score": 82, "date": "2024-12-06" },
+            { "topic": "webProgramming", "score": 70, "date": "2024-12-08" }
+        ]
+    },
+    {
+        "id": 9,
+        "username": "최유진",
+        "highestScore": 94,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 88, "date": "2024-12-01" },
+            { "topic": "dataStructure", "score": 90, "date": "2024-12-03" },
+            { "topic": "serverSecurity", "score": 94, "date": "2024-12-04" },
+            { "topic": "webProgramming", "score": 82, "date": "2024-12-07" }
+        ]
+    },
+    {
+        "id": 10,
+        "username": "한소라",
+        "highestScore": 89,
+        "quizHistory": [
+            { "topic": "algorithm", "score": 78, "date": "2024-12-02" },
+            { "topic": "dataStructure", "score": 85, "date": "2024-12-03" },
+            { "topic": "serverSecurity", "score": 89, "date": "2024-12-05" },
+            { "topic": "webProgramming", "score": 80, "date": "2024-12-06" }
+        ]
+    }
+]

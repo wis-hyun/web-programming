@@ -1,0 +1,38 @@
+{
+    "easy": [
+        { "text": "HTML의 기본 구조를 정의하는 태그는 무엇인가요?", "choices": ["<html>", "<body>", "<head>", "<div>"], "correctAnswer": "<html>" },
+        { "text": "CSS에서 색상을 지정하는 방법이 아닌 것은?", "choices": ["Hex 코드", "RGB 값", "HSL 값", "URL 값"], "correctAnswer": "URL 값" },
+        { "text": "자바스크립트의 파일 확장자는?", "choices": [".js", ".css", ".html", ".java"], "correctAnswer": ".js" },
+        { "text": "HTML에서 이미지 태그는 무엇인가요?", "choices": ["<img>", "<picture>", "<src>", "<div>"], "correctAnswer": "<img>" },
+        { "text": "CSS는 어떤 목적으로 사용되나요?", "choices": ["웹 스타일링", "서버 구성", "데이터베이스 관리", "스크립트 작성"], "correctAnswer": "웹 스타일링" },
+        { "text": "HTML5에서 비디오 삽입을 위한 태그는?", "choices": ["<video>", "<media>", "<movie>", "<source>"], "correctAnswer": "<video>" },
+        { "text": "CSS에서 글꼴 크기를 지정하는 단위는?", "choices": ["px", "em", "rem", "모두 정답"], "correctAnswer": "모두 정답" },
+        { "text": "HTML에서 하이퍼링크를 만드는 태그는?", "choices": ["<a>", "<link>", "<href>", "<url>"], "correctAnswer": "<a>" },
+        { "text": "웹 페이지의 기본 언어를 설정하는 HTML 속성은?", "choices": ["lang", "meta", "charset", "doctype"], "correctAnswer": "lang" },
+        { "text": "CSS의 외부 스타일시트를 연결하는 HTML 태그는?", "choices": ["<link>", "<style>", "<css>", "<script>"], "correctAnswer": "<link>" }
+    ],
+    "medium": [
+        { "text": "Flexbox에서 아이템을 수평 정렬하는 속성은?", "choices": ["justify-content", "align-items", "flex-direction", "display"], "correctAnswer": "justify-content" },
+        { "text": "HTML에서 입력 필드를 만드는 태그는 무엇인가요?", "choices": ["<input>", "<form>", "<textarea>", "<button>"], "correctAnswer": "<input>" },
+        { "text": "자바스크립트에서 배열의 길이를 반환하는 속성은?", "choices": [".length", ".size()", ".count()", ".length()"], "correctAnswer": ".length" },
+        { "text": "CSS에서 클래스 선택자는 어떤 기호로 시작하나요?", "choices": [".", "#", "*", "&"], "correctAnswer": "." },
+        { "text": "HTML5에서 기본적으로 사용하는 문서 타입 선언은?", "choices": ["<!DOCTYPE html>", "<html5>", "<doctype html>", "<!HTML5>"], "correctAnswer": "<!DOCTYPE html>" },
+        { "text": "CSS에서 특정 id를 선택하기 위한 선택자는?", "choices": ["#", ".", "*", "&"], "correctAnswer": "#" },
+        { "text": "JavaScript에서 데이터를 JSON으로 변환하는 메서드는?", "choices": ["JSON.stringify()", "JSON.parse()", "JSON.encode()", "JSON.toString()"], "correctAnswer": "JSON.stringify()" },
+        { "text": "HTML에서 스크립트를 추가하는 태그는?", "choices": ["<script>", "<js>", "<javascript>", "<code>"], "correctAnswer": "<script>" },
+        { "text": "CSS에서 'hover' 상태를 지정하기 위한 선택자는?", "choices": [":hover", "::hover", "hover()", "@hover"], "correctAnswer": ":hover" },
+        { "text": "웹 페이지에서 쿠키를 설정하는 JavaScript 속성은?", "choices": ["document.cookie", "window.cookie", "navigator.cookie", "localStorage.cookie"], "correctAnswer": "document.cookie" }
+    ],
+    "hard": [
+        { "text": "HTML5의 canvas 요소는 무엇을 위해 사용되나요?", "choices": ["그래픽 및 애니메이션", "표 작성", "오디오 삽입", "비디오 재생"], "correctAnswer": "그래픽 및 애니메이션" },
+        { "text": "JavaScript에서 비동기 작업을 처리하기 위한 객체는?", "choices": ["Promise", "Event", "Set", "Map"], "correctAnswer": "Promise" },
+        { "text": "CSS Grid에서 행 간격을 설정하는 속성은?", "choices": ["grid-row-gap", "row-gap", "grid-gap", "gap-row"], "correctAnswer": "row-gap" },
+        { "text": "HTML5에서 데이터 저장을 위해 사용하는 API는?", "choices": ["Web Storage API", "File API", "Storage Manager API", "Cookies API"], "correctAnswer": "Web Storage API" },
+        { "text": "JavaScript에서 `this` 키워드는 무엇을 참조하나요?", "choices": ["현재 객체", "전역 객체", "부모 객체", "이전 함수"], "correctAnswer": "현재 객체" },
+        { "text": "CSS에서 애니메이션의 지속 시간을 설정하는 속성은?", "choices": ["animation-duration", "animation-time", "animation-delay", "animation-speed"], "correctAnswer": "animation-duration" },
+        { "text": "CSS의 z-index 속성은 무엇을 제어하나요?", "choices": ["요소의 쌓이는 순서", "요소의 크기", "요소의 투명도", "요소의 위치"], "correctAnswer": "요소의 쌓이는 순서" },
+        { "text": "JavaScript에서 DOM 요소를 선택하는 메서드는?", "choices": ["document.querySelector()", "document.select()", "window.getElement()", "DOM.get()"], "correctAnswer": "document.querySelector()" },
+        { "text": "CSS에서 반응형 디자인을 구현하기 위해 사용되는 기술은?", "choices": ["미디어 쿼리", "플렉스박스", "그리드", "부트스트랩"], "correctAnswer": "미디어 쿼리" },
+        { "text": "JavaScript에서 변수의 스코프를 확인하기 위해 사용하는 키워드는?", "choices": ["var, let, const", "int, float, char", "global, local", "static, dynamic"], "correctAnswer": "var, let, const" }
+    ]
+}

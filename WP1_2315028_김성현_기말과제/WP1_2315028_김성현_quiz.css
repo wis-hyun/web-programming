@@ -1,0 +1,210 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* 시작 페이지 스타일 */
+#start-page {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+#start-page h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0074d9;
+}
+
+#start-page input {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#start-page input:focus {
+  border-color: #0074d9;
+  outline: none;
+}
+
+#start-btn {
+  background-color: #0074d9;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#start-btn:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+#start-btn:active {
+  transform: scale(1);
+}
+
+/* 퀴즈 페이지 스타일 */
+#question {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#choices {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#choices li {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#choices li:hover {
+  background-color: #e6f4ff;
+  transform: scale(1.05);
+}
+
+#choices li.selected {
+  background-color: #0074d9;
+  color: white;
+}
+
+#choices li.selected:hover {
+  background-color: #005bb5;
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #6fa0cb;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#timer.low-time {
+  background-color: #ff4d4d;
+}
+
+/* 결과 페이지 스타일 */
+#score {
+  font-size: 30px;
+  color: #0074d9;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* 랭킹 섹션 스타일 */
+#stats {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stats h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+#stats p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* 랭킹 리스트 스타일 */
+#ranking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ranking-list li {
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#ranking-list li:hover {
+  transform: scale(1.02);
+  background-color: #f0f4f8;
+}
+
+/* 현재 사용자 강조 */
+#ranking-list li[style*="font-weight: bold"] {
+  background-color: #ffd700; 
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+}
+
+button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* 숨김 처리 */
+.hidden {
+  display: none;
+}
